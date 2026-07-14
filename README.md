@@ -14,10 +14,12 @@ Intern ID:CITS2257
 
 Project Name:Personal Finance Tracker
 
-Project Scope
+Project Scope:
+
 The Personal Finance Tracker helps users manage their daily income and expenses in a simple way. Users can add income and expense details, view their available balance, and check transaction history. The application stores data in the browser, making it easy to access without using a database. In the future, the project can be improved by adding user login, charts, monthly reports, and cloud storage.
 
-Project Description
+Project Description:
+
 The Personal Finance Tracker is a frontend web application developed using HTML5, CSS3, and JavaScript to help users manage their personal finances in a simple and organized manner. The application allows users to record their daily income and expenses, automatically calculate the available balance, and maintain a complete transaction history. It provides an easy way to monitor financial activities without requiring any backend server or database.
 The application stores all transaction data in the browser using Local Storage, ensuring that users do not lose their information even after refreshing or reopening the browser. This makes the application lightweight, fast, and easy to use while demonstrating the practical implementation of client-side web technologies.
 The user interface is designed to be clean, responsive, and user-friendly, making it suitable for both desktop and mobile devices. Users can quickly add new income or expense records, view updated financial summaries, and track their spending habits through an organized list of transactions. The automatic balance calculation helps users understand their current financial position without performing manual calculations.
@@ -27,6 +29,7 @@ The current version focuses on essential financial tracking features, while the 
 
 
 OUTPUT:
+
 <img width="1313" height="610" alt="Image" src="https://github.com/user-attachments/assets/b00c9c65-2cde-479d-aefb-d6e9b860634d" />
 
 
