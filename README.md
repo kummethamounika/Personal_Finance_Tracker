@@ -1,10 +1,17 @@
 Name:kummetha Mounika
+
 Domain Name:Frontend Web Development
+
 Company Name: Codtech IT Solutions Private Limited
+
 Mentor Name:Neela Santhosh Kumar
+
 Time Duration:6 Weeks
+
 Internship Period:06 June 2026 - 18 July 2026
+
 Intern ID:CITS2257
+
 Project Name:Personal Finance Tracker
 
 Project Scope
