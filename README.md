@@ -17,3 +17,15 @@ The user interface is designed to be clean, responsive, and user-friendly, makin
 The project is developed using only frontend technologies, making it ideal for learning core web development concepts such as HTML page structure, CSS styling, responsive design, JavaScript programming, DOM manipulation, event handling, form validation, Local Storage, and dynamic content updates. Since no external APIs or databases are used, the project remains simple, portable, and easy to deploy on any web browser.
 This project serves as an excellent example of a real-world frontend application and demonstrates how JavaScript can be used to build interactive and functional web applications. It is suitable for students, beginners, and anyone who wants to practice frontend development while creating a useful personal finance management tool.
 The current version focuses on essential financial tracking features, while the project can be extended in the future by adding user authentication, monthly and yearly financial reports, graphical charts for expense analysis, category-wise spending summaries, budget planning, data export options, cloud storage, notifications, dark mode, and multi-user support. These enhancements would make the application more powerful and suitable for real-life financial management.
+
+
+OUTPUT:
+<img width="1313" height="610" alt="Image" src="https://github.com/user-attachments/assets/c53f62a9-a741-42db-
+
+<img width="1342" height="626" alt="Image" src="https://github.com/user-attachments/assets/42e0d495-9be4-4f3d-9d5f-612d1bf49249" />
+
+a4eb-5d12f561a789" />
+
+<img width="1336" height="628" alt="Image" src="https://github.com/user-attachments/assets/5875ac42-a05b-4c7b-b501-7ead4979f815" />
+
+<img width="1335" height="618" alt="Image" src="https://github.com/user-attachments/assets/235b828f-31d5-4145-9bbc-14638be1db2d" />
