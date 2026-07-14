@@ -1,0 +1,801 @@
+/* =========================================
+   PERSONAL FINANCE TRACKER
+   PREMIUM DASHBOARD CSS
+========================================= */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+
+}
+
+
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(135deg,#0f172a,#1e293b,#334155);
+
+    color:white;
+
+}
+
+
+
+/* ==============================
+        SIDEBAR
+============================== */
+
+
+.sidebar{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:250px;
+
+    height:100vh;
+
+    padding:30px 20px;
+
+
+    background:
+    rgba(255,255,255,0.08);
+
+
+    backdrop-filter:blur(20px);
+
+
+    box-shadow:
+    5px 0 20px rgba(0,0,0,0.3);
+
+
+}
+
+
+
+.sidebar h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    color:#38bdf8;
+
+}
+
+
+
+.sidebar a{
+
+    display:block;
+
+    padding:15px;
+
+    margin:12px 0;
+
+
+    color:white;
+
+    text-decoration:none;
+
+
+    border-radius:12px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.sidebar a:hover{
+
+    background:
+
+    linear-gradient(90deg,#06b6d4,#8b5cf6);
+
+
+    transform:translateX(8px);
+
+}
+
+
+
+
+
+
+/* ==============================
+        MAIN CONTAINER
+============================== */
+
+
+.container{
+
+
+    margin-left:270px;
+
+
+    width:calc(100% - 300px);
+
+
+    padding:30px;
+
+
+}
+
+
+
+
+
+
+/* ==============================
+        HEADER
+============================== */
+
+
+.header{
+
+
+    padding:25px;
+
+
+    border-radius:20px;
+
+
+    background:
+
+    rgba(255,255,255,0.1);
+
+
+    backdrop-filter:blur(15px);
+
+
+}
+
+
+
+.header h1{
+
+
+    font-size:32px;
+
+
+    background:
+
+    linear-gradient(90deg,#38bdf8,#a855f7);
+
+
+    -webkit-background-clip:text;
+
+
+    color:transparent;
+
+
+}
+
+
+
+
+
+
+
+/* ==============================
+        DASHBOARD CARDS
+============================== */
+
+
+
+.cards{
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(250px,1fr));
+
+
+    gap:25px;
+
+
+    margin-top:30px;
+
+
+}
+
+
+
+
+
+.card{
+
+
+    padding:25px;
+
+
+    min-height:170px;
+
+
+    border-radius:22px;
+
+
+    background:
+
+    rgba(255,255,255,0.12);
+
+
+    backdrop-filter:blur(20px);
+
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,.3);
+
+
+    transition:.4s;
+
+
+    overflow:hidden;
+
+
+}
+
+
+
+.card:hover{
+
+
+    transform:translateY(-10px);
+
+
+}
+
+
+
+
+
+.card h3{
+
+
+    color:#cbd5e1;
+
+
+    font-size:18px;
+
+
+}
+
+
+
+
+
+.card p{
+
+
+    margin-top:20px;
+
+
+    font-size:28px;
+
+
+    font-weight:700;
+
+
+    color:white;
+
+
+    max-width:100%;
+
+
+    overflow:hidden;
+
+
+    text-overflow:ellipsis;
+
+
+    white-space:nowrap;
+
+
+}
+
+
+
+
+
+.income{
+
+
+    border-left:6px solid #22c55e;
+
+
+}
+
+
+
+.expense{
+
+
+    border-left:6px solid #ef4444;
+
+
+}
+
+
+
+.balance{
+
+
+    border-left:6px solid #38bdf8;
+
+
+}
+
+
+
+
+
+
+
+/* ==============================
+        FORMS
+============================== */
+
+
+.form-box{
+
+
+    margin-top:30px;
+
+
+    padding:30px;
+
+
+    border-radius:22px;
+
+
+    background:
+
+    rgba(255,255,255,0.1);
+
+
+    backdrop-filter:blur(15px);
+
+
+    box-shadow:
+
+    0 15px 30px rgba(0,0,0,.25);
+
+
+}
+
+
+
+.form-box h2{
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+
+
+label{
+
+
+    display:block;
+
+
+    margin-top:15px;
+
+
+}
+
+
+
+
+
+input,
+select{
+
+
+    width:100%;
+
+
+    padding:15px;
+
+
+    margin-top:8px;
+
+
+    border:none;
+
+
+    outline:none;
+
+
+    border-radius:12px;
+
+
+    background:
+
+    rgba(255,255,255,.15);
+
+
+    color:white;
+
+
+}
+
+
+
+option{
+
+    color:black;
+
+}
+
+
+
+input::placeholder{
+
+
+    color:#cbd5e1;
+
+
+}
+
+
+
+
+
+
+
+/* ==============================
+        BUTTON
+============================== */
+
+
+button{
+
+
+    margin-top:20px;
+
+
+    padding:13px 30px;
+
+
+    border:none;
+
+
+    border-radius:30px;
+
+
+    cursor:pointer;
+
+
+    color:white;
+
+
+    font-size:15px;
+
+
+    background:
+
+
+    linear-gradient(90deg,#06b6d4,#8b5cf6);
+
+
+    transition:.3s;
+
+
+}
+
+
+
+button:hover{
+
+
+    transform:scale(1.05);
+
+
+    box-shadow:
+
+    0 0 20px #38bdf8;
+
+
+}
+
+
+
+
+
+
+
+/* ==============================
+        TABLE
+============================== */
+
+
+table{
+
+
+    width:100%;
+
+
+    margin-top:25px;
+
+
+    border-collapse:collapse;
+
+
+    overflow:hidden;
+
+
+    border-radius:15px;
+
+
+    background:
+
+    rgba(255,255,255,.08);
+
+
+}
+
+
+
+th{
+
+
+    padding:15px;
+
+
+    background:
+
+
+    linear-gradient(90deg,#06b6d4,#8b5cf6);
+
+
+}
+
+
+
+td{
+
+
+    padding:15px;
+
+
+    text-align:center;
+
+
+    border-bottom:
+
+    1px solid rgba(255,255,255,.1);
+
+
+}
+
+
+
+tr:hover{
+
+
+    background:
+
+    rgba(255,255,255,.1);
+
+
+}
+
+
+
+
+
+
+
+/* ==============================
+        BALANCE BOX
+============================== */
+
+
+.balance-box{
+
+
+    margin-top:40px;
+
+
+    padding:40px;
+
+
+    text-align:center;
+
+
+    border-radius:25px;
+
+
+    background:
+
+    rgba(255,255,255,.12);
+
+
+}
+
+
+
+
+
+.balance-box h1{
+
+
+    font-size:45px;
+
+
+    color:#38bdf8;
+
+
+    overflow:hidden;
+
+
+    text-overflow:ellipsis;
+
+
+}
+
+
+
+
+
+
+
+
+/* ==============================
+        ANIMATION
+============================== */
+
+
+.card,
+.form-box,
+.balance-box{
+
+
+    animation:
+
+    slide .7s ease;
+
+
+}
+
+
+
+@keyframes slide{
+
+
+from{
+
+
+opacity:0;
+
+transform:translateY(30px);
+
+
+}
+
+
+to{
+
+
+opacity:1;
+
+transform:translateY(0);
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* ==============================
+        RESPONSIVE DESIGN
+============================== */
+
+
+@media(max-width:900px){
+
+
+.sidebar{
+
+
+    position:relative;
+
+
+    width:100%;
+
+
+    height:auto;
+
+
+}
+
+
+
+.container{
+
+
+    margin-left:0;
+
+
+    width:100%;
+
+
+}
+
+
+
+.cards{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+.header h1{
+
+
+    font-size:24px;
+
+
+}
+
+
+
+.card p{
+
+
+    font-size:24px;
+
+
+}
+
+
+table{
+
+
+    display:block;
+
+
+    overflow-x:auto;
+
+
+}
+
+
+
+}

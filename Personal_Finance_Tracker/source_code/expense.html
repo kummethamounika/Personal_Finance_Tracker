@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Add Expense</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- Sidebar -->
+
+
+<div class="sidebar">
+
+
+<h2>Finance Tracker</h2>
+
+
+<a href="index.html">🏠 Dashboard</a>
+
+<a href="income.html">💰 Income</a>
+
+<a href="expense.html">💸 Expense</a>
+
+<a href="balance.html">📊 Balance</a>
+
+<a href="transactions.html">📜 Transactions</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Main Content -->
+
+
+<div class="container">
+
+
+
+<div class="header">
+
+
+<h1>
+
+Add Expense
+
+</h1>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="form-box">
+
+
+
+<h2>
+
+Expense Details
+
+</h2>
+
+
+
+
+<label>
+
+Expense Name
+
+</label>
+
+
+<input 
+
+type="text"
+
+id="title"
+
+placeholder="Example: Food, Shopping, Travel">
+
+
+
+
+
+<label>
+
+Amount
+
+</label>
+
+
+<input
+
+type="number"
+
+id="amount"
+
+placeholder="Enter expense amount">
+
+
+
+
+
+<label>
+
+Category
+
+</label>
+
+
+<select id="category">
+
+
+<option>
+
+Food
+
+</option>
+
+
+<option>
+
+Travel
+
+</option>
+
+
+<option>
+
+Shopping
+
+</option>
+
+
+<option>
+
+Bills
+
+</option>
+
+
+<option>
+
+Other
+
+</option>
+
+
+</select>
+
+
+
+
+
+
+<button onclick="addTransaction('Expense')">
+
+
+Add Expense
+
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="form-box">
+
+
+<h2>
+
+Expense Management Tips
+
+</h2>
+
+
+
+<p>
+
+Control unnecessary spending and improve your savings.
+
+</p>
+
+
+<br>
+
+
+
+<h3>
+
+💡 Suggestions:
+
+</h3>
+
+
+<p>
+
+• Track daily expenses
+
+<br>
+
+• Avoid unnecessary purchases
+
+<br>
+
+• Set monthly spending limits
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+
+</html>

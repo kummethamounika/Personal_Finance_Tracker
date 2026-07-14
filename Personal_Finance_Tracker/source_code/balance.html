@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Balance</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+
+<!-- Sidebar -->
+
+
+<div class="sidebar">
+
+
+<h2>Finance Tracker</h2>
+
+
+<a href="index.html">🏠 Dashboard</a>
+
+<a href="income.html">💰 Income</a>
+
+<a href="expense.html">💸 Expense</a>
+
+<a href="balance.html">📊 Balance</a>
+
+<a href="transactions.html">📜 Transactions</a>
+
+
+</div>
+
+
+
+
+
+
+<!-- Main Content -->
+
+
+<div class="container">
+
+
+
+<div class="header">
+
+
+<h1>
+
+Balance Overview
+
+</h1>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="cards">
+
+
+
+<div class="card income">
+
+
+<h3>
+
+Total Income
+
+</h3>
+
+
+<p id="income">
+
+₹0
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card expense">
+
+
+<h3>
+
+Total Expense
+
+</h3>
+
+
+<p id="expense">
+
+₹0
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="balance-box">
+
+
+<h2>
+
+Current Balance
+
+</h2>
+
+
+<br>
+
+
+<h1 id="balance">
+
+₹0
+
+</h1>
+
+
+
+<br>
+
+
+<p id="status">
+
+Your financial status will appear here.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="form-box">
+
+
+<h2>
+
+Financial Advice
+
+</h2>
+
+
+<br>
+
+
+<p>
+
+💰 Save at least 20% of your income.
+
+</p>
+
+
+<p>
+
+📊 Monitor your expenses regularly.
+
+</p>
+
+
+<p>
+
+🚀 Plan your future investments.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+<script>
+
+
+// Balance Status
+
+
+function showStatus(){
+
+
+let balance = totalBalance();
+
+
+let status=document.getElementById("status");
+
+
+
+if(balance > 0){
+
+
+status.innerHTML=
+
+"Excellent! You are managing your money well 🚀";
+
+
+}
+
+else if(balance == 0){
+
+
+status.innerHTML=
+
+"Start adding income and expenses to track your money.";
+
+
+}
+
+else{
+
+
+status.innerHTML=
+
+"Your expenses are higher than income. Control spending ⚠️";
+
+
+}
+
+
+}
+
+
+
+
+window.onload=function(){
+
+
+updateDashboard();
+
+showStatus();
+
+
+}
+
+
+
+</script>
+
+
+
+</body>
+
+
+</html>
