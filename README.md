@@ -20,7 +20,8 @@ The current version focuses on essential financial tracking features, while the 
 
 
 OUTPUT:
-<img width="1313" height="610" alt="Image" src="https://github.com/user-attachments/assets/c53f62a9-a741-42db-
+<img width="1313" height="610" alt="Image" src="https://github.com/user-attachments/assets/b00c9c65-2cde-479d-aefb-d6e9b860634d" />
+
 
 <img width="1342" height="626" alt="Image" src="https://github.com/user-attachments/assets/42e0d495-9be4-4f3d-9d5f-612d1bf49249" />
 
